@@ -1,5 +1,61 @@
 body, html {
     margin: 0;
     padding: 0;
+    height: 100%;
     font-family: 'Roboto', sans-serif;
+}
+h1 {
+    font-weight: 100;
+}
+.header {
+    background-image: url(../images/Graph.png), linear-gradient(to bottom, rgba(14, 26, 53, 1) 0%, rgba(14, 26, 53, 1) 100%);
+    background-position: center;
+    background-size: cover;
+}
+@media screen and (min-width: 768px){
+.header-text {
+    margin-top: 100px;
+}
+.header-text h1 {
+    font-weight: 100;
+    font-size: 60px;
+}
+.header-text p {
+    font-size: 36px;
+    color: #8492af;
+}
+}
+
+.header-text p {
+    color: #8492af;
+}
+.main-nav li a{
+    color: #fff !important;
+    font-size: 18px;
+
+}
+.main-nav li a:hover {
+    color: #c1d5ff !important;
+}
+.navbar img {
+    height: 70px;
+}
+nav {
+    margin-top: 50px;
+}
+.btn-login {
+    border-radius: 25px;
+    padding: 10px 40px;
+}
+.btn-get {
+    padding: 10px 55px;
+    border-radius: 25px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+.heder-image {
+    margin-top: 30px;
+}
+.heder-image img {
+    box-shadow: 2px 0 80px -30px #5584ff;
 }
