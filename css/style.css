@@ -59,3 +59,10 @@ nav {
 .heder-image img {
     box-shadow: 2px 0 80px -30px #5584ff;
 }
+.advantages {
+    margin-top: 100px;
+}
+.advantages-item i{
+    font-size: 70px;
+    color: #5584ff;
+}
