@@ -11,6 +11,8 @@
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -120,15 +122,41 @@
             </div>
         </section>
         <section class="container-fluid drag-drop">
-            <div class="row">
-                <div class="col-lg-3">
-                    <h3>In Progress <span>(3)</span></h3>
+            <div class="row drag-drop-items">
+                <div class="col-lg-6 col-xl-3 ddd d-none d-lg-block">
+                    <h3>In Progress <span>(3)</span></h3><i class="material-icons">chevron_right</i>
+                    <img src="images/In-Progress.png" alt="">
+                    <div>
+                        <img src="images/Hand1.png" class="image-hand" alt="">
+                    </div>
                 </div>
-                <div class="col-lg-3">
-                    <h3>Completed <span>(2)</span></h3>
-                </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6 col-xl-3 ddd d-none d-lg-block">
 
+                    <h3>Completed <span>(2)</span></h3>
+                    <img src="images/Done.png" alt="">
+                </div>
+                <div class="col-lg-6 carousel-drop">
+                    <h2 class="pb-5 px-lg-5">Drag & Drop</h2>
+                    <div class="owl-carousel owl-theme px-lg-5">
+                        <div class="item">
+                            <p class="pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                                commodo consequat. </p>
+                        </div>
+                        <div class="item">
+                            <p class="pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                                commodo consequat. </p>
+                        </div>
+                        <div class="item">
+                            <p class="pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                                commodo consequat. </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -138,6 +166,7 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 

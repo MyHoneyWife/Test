@@ -199,6 +199,36 @@ nav {
 }
 .drag-drop {
     background-image: url(../images/Graph.png), linear-gradient(to bottom, rgba(14, 26, 53, 1) 0%, rgba(14, 26, 53, 1) 100%);
-    background-position: center;
+    background-position: inherit;
     background-size: cover;
+}
+
+@media screen and (min-width: 1025px) {
+    .drag-drop-itemsr {
+        padding-left: 265px;
+    }
+    .drag-drop{
+        padding-top: 165px;
+        padding-left: 265px;
+    }
+}
+.carousel-drop h2 {
+    color: #fff;
+    font-weight: 100;
+    font-size: 60px;
+}
+.carousel-drop p {
+    color: #8492af;
+    font-size: 18px;
+    max-width: 520px;
+    min-width: 500px;
+}
+.ddd {
+    min-width: 300px;
+}
+.ddd img {
+    
+}
+.ddd .image-hand {
+    padding: 48px 0 0 30px;
 }
