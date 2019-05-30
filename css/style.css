@@ -9,13 +9,20 @@ html {
 h1 {
     font-weight: 100;
 }
-
+p, a, span, h1, h2 {
+    color: #0e1a35;
+}
+h3, h4, h5, h6 {
+    color: #fff;
+}
 .header {
     background-image: url(../images/Graph.png), linear-gradient(to bottom, rgba(14, 26, 53, 1) 0%, rgba(14, 26, 53, 1) 100%);
     background-position: center;
     background-size: cover;
 }
-
+.header-text h1 {
+    color: #fff;
+}
 @media screen and (min-width: 768px) {
     .header-text {
         margin-top: 100px;
@@ -24,6 +31,7 @@ h1 {
     .header-text h1 {
         font-weight: 100;
         font-size: 60px;
+        color: #fff;
     }
 
     .header-text p {
@@ -121,7 +129,7 @@ nav {
 
 }
 
-@media screen and (min-width: 990px) {
+@media screen and (min-width: 1025px) {
     .advantages-item svg {
         display: inline-block;
         position: absolute;
@@ -132,13 +140,18 @@ nav {
 }
 
 .about-browser h2 {
-    color: #0e1a35;
     font-weight: 100;
     font-size: 60px;
 }
 
+.about-browser p {
+    color: #8492af;
+    font-size: 18px;
+    max-width: 680px;
+}
+
 .about-browser {
-    padding-top: 250px;
+    padding-top: 100px;
     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,f6f7fa+35,f6f7fa+100 */
     background: #ffffff;
     /* Old browsers */
@@ -154,3 +167,38 @@ nav {
     background-image: url(../images/Graph.png), linear-gradient(top, #ffffff 0%, #f6f7fa 35%, #f6f7fa 100%);
 }
 
+@media screen and (min-width: 1025px) {
+    .about-browser {
+        padding-top: 250px;
+        padding-left: 265px;
+    }
+}
+
+.image-tech { 
+}
+
+.image-tech img {
+    position: absolute;
+
+}
+
+.about-browser .checd-punct {
+    color: #5584ff;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+}
+.ccc {
+    overflow: hidden;
+    height: 700px;
+}
+
+.about-browser .checd-punct i {
+    font-size: 35px;
+    padding-right: 15px;
+}
+.drag-drop {
+    background-image: url(../images/Graph.png), linear-gradient(to bottom, rgba(14, 26, 53, 1) 0%, rgba(14, 26, 53, 1) 100%);
+    background-position: center;
+    background-size: cover;
+}
