@@ -232,3 +232,14 @@ nav {
 .ddd .image-hand {
     padding: 48px 0 0 30px;
 }
+.ddd span,
+.ddd i {
+    color: #fff;
+}
+.ddd h3 {
+    display: inline-block;
+}
+.ddd i {
+    text-align: right;
+    width: calc(100% - 200px);
+}
